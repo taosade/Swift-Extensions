@@ -24,7 +24,7 @@ import Foundation
 
     .inputText
     - removes all unnessary whitespace and excessive newlines (more than 2 in a row) from the string
-    - designed to handle single line input (TextEditor)
+    - designed to handle single multiline input (TextEditor)
     - igonores second argument (CharacterSet)
 
     Calling wash() method with no mode specified works as whitespace trimmer.
